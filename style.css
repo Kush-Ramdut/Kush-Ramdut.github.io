@@ -5,9 +5,9 @@ body {
 Header {
   text-align: center;
   img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
     display: block;
     margin: 0 auto;
   }
