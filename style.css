@@ -3,9 +3,25 @@ Header {
   padding: 20px;
 }
 
-header img {
+header img.self-portrait {
   width: 200px;
   height: 300px;
+  border-radius: 10%;
+  display: block;
+  margin: 0 auto;
+}
+
+header img.project1-img {
+  width: 500px;
+  height: 400px;
+  border-radius: 10%;
+  display: block;
+  margin: 0 auto;
+}
+
+header img.project2-img {
+  width: 500px;
+  height: 400px;
   border-radius: 10%;
   display: block;
   margin: 0 auto;
@@ -38,6 +54,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   margin: 0;
+  min-height: 100vh;
+  padding-bottom: 60px; /* Space for the fixed footer */
 }
 
 main {
@@ -49,14 +67,29 @@ main {
   padding: 20px;
 }
 
+section.education {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #9ea0f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 section.education h2 {
   text-align: left;
   padding-bottom: 20px;
 }
 
 section.projects {
-  float: right;
-  width: 60%;
+  float: left;
+  width: 50%;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #9ea0f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 section.projects h2 {
@@ -69,8 +102,16 @@ section.projects ul {
 }
 
 aside.skills {
+  float: right;
+  width: 40%;
   padding-top: 20px;
   height: 30%;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #9ea0f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 aside.skills h2 {
@@ -81,9 +122,42 @@ aside.skills h2 {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #6062fd;
-
+  background-color: rgba(96, 98, 253, 0.1);
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+p.description {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+p.features {
+  text-align: left;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+ul.features {
+  float: left;
+  width: 70%;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #9ea0f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+aside.skills-used {
+  float: right;
+  border: 2px solid black;
+  width: 20%;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #9ea0f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
