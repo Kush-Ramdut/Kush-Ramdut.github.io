@@ -1,4 +1,4 @@
-Header {
+header {
   text-align: center;
   padding: 20px;
 }
@@ -55,7 +55,7 @@ body {
   line-height: 1.6;
   margin: 0;
   min-height: 100vh;
-  padding-bottom: 60px; /* Space for the fixed footer */
+  padding-bottom: 60px;
 }
 
 main {
